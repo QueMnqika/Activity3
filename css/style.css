@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://i.postimg.cc/vTWYCmyR/Untitled-design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.container1{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+
+.container1 a{
+    background-color: #33219b;
+    border: 3px solid #fff;
+    padding: 40px 300px ;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.container1 a:hover{
+    background-color: #adadad;
+    border: 3px solid #fff;
+    padding: 40px 300px ;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.copyright a{
+    color: #888;
+}
